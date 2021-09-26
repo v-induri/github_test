@@ -1,0 +1,1 @@
+gatk HaplotypeCaller -R ~/Desktop/positive_share/hg38/hg38.fasta -I <file name.bam> -L chr3:37011757-37011957 --force-active --disable-optimizations -O Gene.vcf -bamout Gene.bam
